@@ -1,3 +1,4 @@
 {
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "merge-conflict.autoNavigateNextConflict.enabled": true
 }

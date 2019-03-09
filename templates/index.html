@@ -1,8 +1,17 @@
 {% extends "layout.html" %}
 
-{% block batuhan %}
-<p>Burası indextir...</p>
+{% block body %}
+
+<div class="jumbotron text-center">
+    <h3>Yazılım Bilimi Bloğuna Hoş Geldiniz.</h3>
+    <p>Bu blogta geliştiriciler olarak blog yazılarını paylaşabilirsiniz. Bu blogta geliştiriciler olarak blog yazılarını paylaşabilirsiniz.</p>
+</div>
+
+<ul>
+    {% for article in articles %}
+        <li>Article Id: {{article.id}} - Title : {{article.title}} - Article Content : {{article.content}}</li>
+    {% endfor %}
+</ul>
+
+
 {% endblock  %}
-{% block title %}
-Ana Sayfa
-{% endblock title %}
