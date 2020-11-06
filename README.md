@@ -1,3 +1,3 @@
-# todoflask
+# blogflask
 
-To Do List project with Flask
+Blog project with Flask
