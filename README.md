@@ -1,3 +1,3 @@
 # blogflask
 
-Blog project with Flask
+Blog project with Python Flask framework
